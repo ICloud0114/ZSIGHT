@@ -1,0 +1,127 @@
+/* 
+  Localizable.strings
+  SOMY
+
+  Created by easaa on 10/13/14.
+  Copyright (c) 2014 easaa. All rights reserved.
+*/
+"SOMY THERMOMETER" = "ZSIGHT";
+"scan" = "scan";
+"Connected devices" = "Connecting";
+"The login" = "login";
+"Is logged in" = "logged";
+"Log out" = "Log out";
+"Selected user" = "Selected user";
+"Add" = "Add";
+"Confirm" = "Confirm";
+"Complete" = "Complete";
+"Cancel" = "Cancel";
+"Delete" = "Delete";
+"Setting" = "Setting";
+"Remind" = "Remind";
+"About us" = "About us";
+"Add user" = "Add user";
+"Enter the user name" = "Input User";
+"Mobile phone number" = "Mobile phone number";
+"Email" = "Email";
+"email" = "Email";
+"Secret" = "Secret";
+"The login password" = "The login password";
+"Forgot password" = "Forgot";
+"Registering a new user" = "Register";
+"CN +86" = "CN +86";
+"Registered" = "Registered";
+
+"Input Cellphone Number" = "Input Cellphone Number";
+"Input Email" = "Input Email";
+"Once again" = "Once again";
+"Input validation code" = "Input validation code";
+"Get Code" = "Get Code";
+"Submit" = "Submit";
+"Temperature Unit" = "Temperature Unit";
+"Equipment information" = "Equipment info";
+"Feedback" = "Feedback";
+"Change the password" = "Change password";
+"Wifi only upload" = "Wifi only upload";
+"Language Switch" = "Language";
+"Equipment ID" = "Equipment ID";
+"Hardware ID" = "Hardware ID";
+"Firmware version" = "Firmware version";
+"Equipment upgrades" = "Equipment upgrades";
+"Fill in the feedback here" = "Fill in the feedback here";
+"Old Password" = "Old Password";
+"New Password" = "New Password";
+"About" = "About";
+"Heat alert" = "Heat alert";
+"Heat Alert Opened" = "Heat Alert Opened";
+"Heat Alert Closed" = "Heat Alert Closed";
+"Ring" = "Ring";
+"Pill Reminder" = "Pill Reminder";
+"Alarm recovery time" = "recovery time";
+"No more" = "No more";
+"One hours" = "One hours";
+"Two hours" = "Two hours";
+"List" = "List";
+"Repeat" = "Repeat";
+"Datepicker" = "Datepicker";
+"Local hospital" = "Local hospital";
+"Medication Guide" = "Medication Guide";
+"Software Upgrading" = "Software Upgrading";
+"Upgrade" = "Upgrade";
+"Inquire record" = "Inquire record";
+
+"Sunday" = "Every Sunday";
+"Monday" = "Every Monday";
+"Tuesday" = "Every Tuesday";
+"Wednesday" = "Every Wednesday";
+"Thursday" = "Every Thursday";
+"Friday" = "Every Friday";
+"Saturday" = "Every Saturday";
+
+"Normal" = "Normal";
+"Warning" = "Warning";
+"Low" = "Low";
+"Add Alarm" = "Add Alarm";
+
+"Devices List" = "Devices List";
+
+"overflow" = "overflow";
+"device number" = "Device Number";
+
+"scan device" = "Please Scan The ZSIGHT!";
+"Manual Control Setting" = "Manual Setting";
+"Warning temperature :" = "Warn temp:";
+"Synchronous Temperature" = "Synchronous Temperature";
+
+"Manual set" = "Manual set";
+"Synchronous" = "Synchronous";
+"Please input password" = "Please input password";
+"Please input username" = "Please input username";
+"Please fill out the complete information" = "Please fill out the complete information";
+"Please enter the correct mailbox number" = "Please enter the correct mailbox number";
+"Top Temperature: " = "Top Temperature :";
+
+"Add Success" = "Add Success";
+"Add Failed" = "Add Failed";
+
+"Regist Success" = "Regist Success";
+"Regist Failed" = "Regist Failed";
+
+"Login Success" = "Login Success";
+"Regist Failed" = "Regist Failed";
+
+"Setting Success" = "Setting Success";
+"Tips" = "Tips";
+"Loading.." = "Loading..";
+"Login Failed" = "Login Failed";
+"can not connect" = "can not connect";
+"The current temperature is" = "The current temperature is";
+"Recommend the use of physical cooling" = "Recommend the use of physical cooling";
+"Please place the forehead with ice for 15 min" = "Please place the forehead with ice for 15 min";
+"Low Power" = "Low Power";
+"Do not remind" = "Do not remind";
+"Send Success" = "Send Success";
+"Send Failed" = "Send Failed";
+"Update Success" = "Update Success";
+"Update Failed" = "Update Failed";
+"Passwords do not match" = "Passwords do not match";

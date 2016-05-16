@@ -1,0 +1,51 @@
+//
+//  Prefix header
+//
+//  The contents of this file are implicitly included at the beginning of every source file.
+//
+
+#import <Availability.h>
+
+#ifndef __IPHONE_3_0
+#warning "This project uses features only available in iOS SDK 3.0 and later."
+#endif
+
+#ifdef __OBJC__
+    #import <UIKit/UIKit.h>
+    #import <Foundation/Foundation.h>
+    #import "UIColor+ColorUtil.h"
+    #import "CustomNavigation.h"
+    #import "HTTPRequest.h"
+    #import "NSString+Regular.h"
+#endif
+
+#define SOMYAPI @"http://suomai.es-cloud.net/api/GetSomyInfo.ashx?Method=%@&Params=%@&Sign=%@"
+
+#define INCREMENT (([[[UIDevice currentDevice]systemVersion]floatValue] >= 7.0)?20:0)
+
+#define TabbarHeight (([[[UIDevice currentDevice]systemVersion]floatValue] >= 7.0)?44:0)
+
+#define iPhone5 ([UIScreen instancesRespondToSelector:@selector(currentMode)] ? CGSizeEqualToSize(CGSizeMake(640, 1136), [[UIScreen mainScreen] currentMode].size) : NO)
+
+#define iPhone4s ([UIScreen mainScreen].applicationFrame.size.height < 1136 ? YES : NO)
+
+#define GREENCOLOR colorwithHexString:@"8fcbc4"
+
+#define SCREEN_WIDTH [UIScreen mainScreen].applicationFrame.size.width
+#define SCREEN_HEIGHT [UIScreen mainScreen].applicationFrame.size.height
+
+//#define LANGUAGE_TYPE   @"Zh-Hans"
+#define LANGUAGE_TYPE   @"en"
+#define USERID  @"userID"
+#define USERNAME @"userName"
+#define PASSWORD @"password"
+#define ISLOGIN @"isLogin"//判断是否登录
+//左边视图 宽度差
+#define OFFSET 70
+
+#define DPLocalizedString(lan)       [NSString DPLocalizedString:lan]
+#define CurrentLanguage               [NSString currentLanguage]
+
+#define TEMPERATUREUNIT             (ISFAHRENHEIT?(@"˚F"):(@"˚C"))
+#define TemperatureChange(temp)     (ISFAHRENHEIT?( temp * 1.8 + 32 ):temp)
+#define ISFAHRENHEIT                [[NSUserDefaults standardUserDefaults]objectForKey:@"isF"]
